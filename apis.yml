@@ -68,6 +68,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/indices/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-indices-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
