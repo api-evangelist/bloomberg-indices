@@ -1,9 +1,9 @@
 aid: bloomberg-indices
 name: Bloomberg Indices
-description: Bloomberg Indices are a comprehensive family of fixed income, equity, commodity, and multi-asset benchmark
-  indices used by institutional investors worldwide. The Bloomberg Global Aggregate Bond Index, US Aggregate Bond
-  Index, and related indices serve as key benchmarks for fixed income markets. Bloomberg provides index data, analytics,
-  and constituent information through its Terminal and data delivery platforms.
+description: Bloomberg Indices are a comprehensive family of fixed income, equity, commodity, and multi-asset
+  benchmark indices used by institutional investors worldwide. The Bloomberg Global Aggregate Bond Index,
+  US Aggregate Bond Index, and related indices serve as key benchmarks for fixed income markets. Bloomberg
+  provides index data, analytics, and constituent information through its Terminal and data delivery platforms.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-indices.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-indices/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Indices
@@ -52,8 +52,8 @@ tags_raw:
 apis:
 - aid: bloomberg-indices:index-data-api
   name: Bloomberg Index Data API
-  description: Access index constituent data, weights, analytics, total returns, and historical data for Bloomberg's
-    family of fixed income, equity, and multi-asset indices via BLPAPI and Data License.
+  description: Access index constituent data, weights, analytics, total returns, and historical data for
+    Bloomberg's family of fixed income, equity, and multi-asset indices via BLPAPI and Data License.
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: blpapi://localhost:8194
   tags:
@@ -67,9 +67,9 @@ apis:
     url: https://www.bloomberg.com/professional/solution/indices/
 - aid: bloomberg-indices:commodity-index-api
   name: Bloomberg Commodity Index (BCOM)
-  description: Access Bloomberg Commodity Index data including futures-based commodity index returns, constituent
-    weights, and rebalancing data. BCOM is a broadly diversified index tracking commodity futures across energy,
-    metals, and agriculture.
+  description: Access Bloomberg Commodity Index data including futures-based commodity index returns,
+    constituent weights, and rebalancing data. BCOM is a broadly diversified index tracking commodity
+    futures across energy, metals, and agriculture.
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: blpapi://localhost:8194
   tags:
@@ -84,8 +84,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/indices/
 - aid: bloomberg-indices:galaxy-crypto-index
   name: Bloomberg Galaxy Crypto Index
-  description: Access cryptocurrency index data from the Bloomberg Galaxy Crypto Index family, tracking the performance
-    of the largest and most liquid cryptocurrencies.
+  description: Access cryptocurrency index data from the Bloomberg Galaxy Crypto Index family, tracking
+    the performance of the largest and most liquid cryptocurrencies.
   humanURL: https://www.bloomberg.com/professional/solution/indices/
   baseURL: blpapi://localhost:8194
   tags:
@@ -96,6 +96,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/indices/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
